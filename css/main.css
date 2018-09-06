@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana;
+  background-color: #1C2541;
+  color: #fff;
+}
+
+.form-item {
+  display: inline-block;
+  padding: 20px;
+  height: 100px;
+  width: 150px;
+}
+
+.flex-box-item {
+  border-radius: 25px;
+  background-image: linear-gradient( #5BC0BE, #F5FF70);
+  color: #fff;
+  padding: 15px;
+  width: 200px;
+  height: 150px
+  border: sol
+}
+
+
+.flex-box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
